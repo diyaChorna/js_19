@@ -1,0 +1,36 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .all{
+      height: 656px;
+      background-color: rgb(210, 210, 214);
+  }
+  .box1{
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-size: 33px;
+  }
+  .box2{
+      height: 550px;
+      width: 30%;
+      margin: 0 auto;
+      padding-left: 5.5%;
+      font-size: 18px;
+      color: rgba(235, 27, 0, 0);
+  }
+  .name, .lastName, .email, .number, .password, .button{
+      height: 45px;
+      width: 80%;
+      margin-top: 4%;
+      margin-bottom: 4%;
+      /* margin-left: 8%; */
+      margin-right: 8%;
+  }
+  input:focus{
+      box-shadow: 2px 2px 15px    rgb(7, 149, 243);
+      border: 3px solid rgb(7, 149, 243);
+  }
